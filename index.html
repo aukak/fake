@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudyZone by Clever.com - Complete middle school learning resource center with math, science, english, and history lessons, practice tests, and homework help.">
+    <meta name="keywords" content="middle school, education, homework help, math, science, english, history, study resources, clever, learning">
+    <meta name="author" content="Clever.com">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>StudyZone - Middle School Learning</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Verdana, Arial, sans-serif;
+            background: #e0e0e0;
+            color: #222;
+            font-size: 12px;
+        }
+        
+        #wrapper {
+            width: 900px;
+            margin: 15px auto;
+            background: #fff;
+            border: 1px solid #999;
+        }
+        
+        #header {
+            background: #003d7a;
+            padding: 25px;
+            border-bottom: 4px solid #002855;
+        }
+        
+        #header h1 {
+            color: #fff;
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+        
+        #header p {
+            color: #99ccff;
+            font-size: 13px;
+        }
+        
+        #nav {
+            background: #0066cc;
+            overflow: hidden;
+        }
+        
+        #nav a {
+            float: left;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-right: 1px solid #0052a3;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        
+        #nav a:hover {
+            background: #0052a3;
+        }
+        
+        #main {
+            overflow: hidden;
+        }
+        
+        #sidebar {
+            float: left;
+            width: 200px;
+            background: #f7f7f7;
+            border-right: 1px solid #ccc;
+            padding: 15px;
+        }
+        
+        #sidebar h3 {
+            background: #003d7a;
+            color: #fff;
+            padding: 6px 8px;
+            font-size: 12px;
+            margin: -15px -15px 12px -15px;
+        }
+        
+        #sidebar ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        
+        #sidebar li {
+            padding: 5px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        #sidebar a {
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 11px;
+        }
+        
+        #sidebar a:hover {
+            text-decoration: underline;
+        }
+        
+        #content {
+            float: left;
+            width: 685px;
+            padding: 20px;
+        }
+        
+        #content h2 {
+            color: #003d7a;
+            font-size: 18px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 5px;
+        }
+        
+        #content p {
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        
+        .box {
+            background: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 12px;
+            margin-bottom: 15px;
+        }
+        
+        .box h3 {
+            color: #003d7a;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        
+        .btn {
+            background: #0066cc;
+            color: #fff;
+            padding: 6px 15px;
+            text-decoration: none;
+            font-size: 11px;
+            font-weight: bold;
+            display: inline-block;
+            border: 1px solid #0052a3;
+        }
+        
+        .btn:hover {
+            background: #0052a3;
+        }
+        
+        .alert {
+            background: #ffffcc;
+            border: 1px solid #ffcc00;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: 11px;
+        }
+        
+        .alert strong {
+            color: #cc6600;
+        }
+        
+        #footer {
+            clear: both;
+            background: #003d7a;
+            color: #99ccff;
+            text-align: center;
+            padding: 12px;
+            font-size: 10px;
+            border-top: 4px solid #002855;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        table td {
+            padding: 8px;
+            border: 1px solid #ccc;
+            background: #f9f9f9;
+        }
+        
+        table td strong {
+            color: #003d7a;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>StudyZone</h1>
+            <p>Your Complete Middle School Resource Center</p>
+            <p style="font-size: 10px; margin-top: 8px;">Powered by Clever.com</p>
+        </div>
+        
+        <div id="nav">
+            <a href="#home">HOME</a>
+            <a href="#subjects">SUBJECTS</a>
+            <a href="#resources">RESOURCES</a>
+            <a href="#help">HOMEWORK HELP</a>
+            <a href="#teachers">FOR TEACHERS</a>
+            <a href="#about">ABOUT</a>
+        </div>
+        
+        <div id="main">
+            <div id="sidebar">
+                <h3>SUBJECTS</h3>
+                <ul>
+                    <li><a href="#math">Mathematics</a></li>
+                    <li><a href="#science">Science</a></li>
+                    <li><a href="#english">English</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#geography">Geography</a></li>
+                    <li><a href="#spanish">Spanish</a></li>
+                </ul>
+                
+                <h3>TOOLS</h3>
+                <ul>
+                    <li><a href="#calculator">Calculator</a></li>
+                    <li><a href="#dictionary">Dictionary</a></li>
+                    <li><a href="#converter">Unit Converter</a></li>
+                    <li><a href="#periodic">Periodic Table</a></li>
+                    <li><a href="#atlas">World Atlas</a></li>
+                </ul>
+                
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#quiz">Daily Quiz</a></li>
+                    <li><a href="#videos">Video Lessons</a></li>
+                    <li><a href="#worksheets">Worksheets</a></li>
+                    <li><a href="#games">Educational Games</a></li>
+                </ul>
+            </div>
+            
+            <div id="content">
+                <div class="alert">
+                    <strong>NEW:</strong> Interactive practice tests now available for all subjects. Check the Resources section.
+                </div>
+                
+                <h2>Welcome to StudyZone</h2>
+                <p>StudyZone is your one-stop resource for middle school learning. Whether you need help with homework, want to practice for tests, or just want to learn something new, we have the tools and materials you need to succeed.</p>
+                
+                <div class="box">
+                    <h3>Mathematics</h3>
+                    <p>From basic arithmetic to pre-algebra, get step-by-step explanations, practice problems, and video tutorials. Topics include fractions, decimals, percentages, equations, and geometry.</p>
+                    <a href="#math" class="btn">ENTER MATH CENTER</a>
+                </div>
+                
+                <div class="box">
+                    <h3>Science</h3>
+                    <p>Explore biology, chemistry, physics, and earth science through interactive lessons and virtual labs. Learn the scientific method and conduct experiments safely at home.</p>
+                    <a href="#science" class="btn">ENTER SCIENCE LAB</a>
+                </div>
+                
+                <div class="box">
+                    <h3>English & Language Arts</h3>
+                    <p>Improve reading comprehension, writing skills, grammar, and vocabulary. Access book summaries, writing prompts, and grammar guides to boost your language skills.</p>
+                    <a href="#english" class="btn">ENTER READING ROOM</a>
+                </div>
+                
+                <div class="box">
+                    <h3>Social Studies</h3>
+                    <p>Study world history, American history, geography, and civics. Interactive timelines, maps, and primary source documents bring history to life.</p>
+                    <a href="#history" class="btn">ENTER HISTORY HALL</a>
+                </div>
+                
+                <h2>This Week's Featured Content</h2>
+                <table>
+                    <tr>
+                        <td width="50%">
+                            <strong>Featured Lesson</strong><br>
+                            Understanding Photosynthesis - A complete guide with diagrams and quiz
+                        </td>
+                        <td width="50%">
+                            <strong>Practice Challenge</strong><br>
+                            Algebra Word Problems - Test your skills with 20 new problems
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Study Guide</strong><br>
+                            Civil War Timeline - Key events and battles explained
+                        </td>
+                        <td>
+                            <strong>Writing Workshop</strong><br>
+                            How to Write a Perfect Paragraph - Tips and examples
+                        </td>
+                    </tr>
+                </table>
+                
+                <h2>Study Tips</h2>
+                <p><strong>Organize Your Time:</strong> Create a study schedule and stick to it. Break large assignments into smaller tasks.</p>
+                <p><strong>Take Good Notes:</strong> Write down important information in your own words. Review your notes regularly.</p>
+                <p><strong>Ask Questions:</strong> If you don't understand something, ask your teacher or use our homework help forum.</p>
+                <p><strong>Practice Regularly:</strong> The more you practice, the better you'll get. Use our practice quizzes daily.</p>
+            </div>
+        </div>
+        
+        <div id="footer">
+            Copyright 2010 Clever.com. All rights reserved. | <a href="#" style="color: #99ccff;">Privacy Policy</a> | <a href="#" style="color: #99ccff;">Terms of Use</a>
+        </div>
+    </div>
+</body>
+</html>
